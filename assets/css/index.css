@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+}
+.c-top{
+    height: 100px ;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-logo{
+    width: 127px;
+}
