@@ -84,6 +84,7 @@ hr{
 .highlight-body{
     display: flex;
     background-color: #f7f8fa;
+    margin-bottom: 50px;
 }
 .highlight-top{
     flex-direction: column;
