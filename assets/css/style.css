@@ -1,6 +1,14 @@
+@import url(//db.onlinewebfonts.com/c/1ba82d324736a8a9d4327d482c4627c4?family=Ebrima);
+@font-face {font-family: "Ebrima"; src: url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.eot"); src: url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.woff") format("woff"), url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.svg#Ebrima") format("svg"); }
 *{
     margin: 0;
-    font-family: Roboto;
+    font-family: Ebrima;
+}
+.flex{
+    display: flex;
+}
+.f-column{
+    flex-direction: column;
 }
 html{
     scroll-behavior: smooth;
@@ -56,15 +64,16 @@ hr{
 	border-bottom: 1px solid #AAA;
 }
 .header-bottom{
+    justify-content: center;
+    height: 100%;
+}
+.header-box{
     cursor: default;
-    height: 100%;
     transform: skew(160deg);
-    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 .header-text > h1{
     font-size: 8em;
@@ -150,7 +159,90 @@ hr{
     margin-right: 30px;
 }
 
-
+.mid-bg{
+    background-image: url('/assets/img/mid-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.mid-bg,
+.mid-list,
+.mid-list > ul,
+.mid-list > ul > li{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+}
+.mid-list >ul > li > a {
+    display: flex;
+    text-decoration: none;
+    color: #143f69;
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+.mid-list > ul > li {
+    margin-top: 64px;
+    margin-left: 50px;
+    width: 180px;
+}
+.mid-list >ul > li > a:hover {
+    color: goldenrod;
+}
+.highlight-bottom-container,
+.hightlight-mid-container{
+    margin: 50px 0 50px 0;
+}
+.bottom-bg{
+    background-image: url('/assets/img/bottom.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.copyright{
+    color: #FFF;
+}
+.highlight-footer-top{
+    height: 200px;
+    background-color: #1f65aa;
+    width: 100%;
+}
+.highlight-footer-bottom{
+    height: 100px;
+    background-color: #143f69;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons-footer > div > a > img {
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+}
+.highlight-footer-development{
+    color: #143f6981;
+    align-items: center;
+    background-color: #f1f1f19f;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+small > a {
+    color: rgba(0, 0, 0, 0.678);
+    text-decoration: none;
+}
+small > a:hover{
+    color: #000;
+}
 
 
 
@@ -211,20 +303,102 @@ hr{
     .icon-logo{
         width: 180px;
     }
+    .mid-bg{
+        height: 410px;
+    }
+    .mid-list > ul > li {
+        margin-top: 43px;
+        margin-left: 50px;
+        font-size: 0.8em;
+    }
+    .bottom-bg{
+        height: 150px;
+    }
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 920px) {
+    .header-text > h3{
+        font-size: 1.5em;
+    }
+    .header-text > h1{
+        font-size: 5em;
+    }
     .container{
         max-width: 700px;
     }
     .icon-logo{
         width: 180px;
     }
+    .mid-bg{
+        height: 300px;
+    }
+    .mid-list > ul > li {
+        margin-top: 35px;
+        margin-left: 35px;
+        font-size: 0.6em;
+    }
+    .bottom-bg{
+        height: 100px;
+    }
+    
+    
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
     .container{
         max-width: 500px;
+    }
+    .header-text > h3{
+        font-size: 1.3em;
+    }
+    .header-text > h1{
+        font-size: 5em;
     }
     .icon-logo{
         width: 100px;
     }
+    .mid-bg{
+        height: 210px;
+    }
+    .mid-list > ul > li {
+        margin-top: 25px;
+        margin-left: 15px;
+        font-size: 0.45em;
+    }
+    .bottom-bg{
+        height: 80px;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    header{
+        height: 250px;
+    }
+    .c-top{
+        display: none;
+    }
+    .highlight-bottom{
+        flex-direction: column;
+    }
+    .container{
+        max-width: 300px;
+    }
+    .icon-logo{
+        width: 50px;
+    }
+    .header-text > h3{
+        font-size: 1.0em;
+    }
+    .header-text > h1{
+        font-size: 2em;
+    }
+    .mid-bg{
+        height: 210px;
+    }
+    .mid-list > ul > li {
+        margin-top: 25px;
+        margin-left: 15px;
+        font-size: 0.45em;
+    }
+    .bottom-bg{
+        height: 80px;
+    } 
 }
