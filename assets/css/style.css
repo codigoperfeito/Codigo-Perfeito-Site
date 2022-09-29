@@ -24,7 +24,7 @@ html {
 }
 
 header {
-    background-image: url('assets/img/bg.png');
+    background-image: url('/assets/img/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -195,7 +195,7 @@ hr {
 }
 
 .mid-bg {
-    background-image: url('assets/img/mid-bg.png');
+    background-image: url('/assets/img/mid-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -241,7 +241,7 @@ hr {
 }
 
 .bottom-bg {
-    background-image: url('assets/img/bottom.png');
+    background-image: url('/assets/img/bottom.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -481,12 +481,11 @@ small>a:hover {
         margin: 25px 60px 30px 10px;
         position: absolute;
         width: 250px;
-        left: 4em;
+        left: 4rem;
     }
 
     .people-highlight-container {
         height: 430px;
-        left: 100px;
     }
     #p1,#p2,#p3 {
         left: 0;        
