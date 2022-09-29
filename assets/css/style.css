@@ -136,7 +136,9 @@ hr {
 .highlight-top>h4 {
     color: #8b929b;
 }
-
+.botao{
+    display: none;
+}
 .highlight-bottom {
     display: flex;
     --webkit-box-shadow: 2px 2px 15px 8px rgba(10, 10, 10, 0.2);
