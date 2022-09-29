@@ -24,7 +24,7 @@ html {
 }
 
 header {
-    background-image: url('/assets/img/bg.png');
+    background-image: url('assets/img/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -193,7 +193,7 @@ hr {
 }
 
 .mid-bg {
-    background-image: url('/assets/img/mid-bg.png');
+    background-image: url('assets/img/mid-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -239,7 +239,7 @@ hr {
 }
 
 .bottom-bg {
-    background-image: url('/assets/img/bottom.png');
+    background-image: url('assets/img/bottom.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
