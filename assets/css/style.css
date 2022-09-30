@@ -24,7 +24,7 @@ html {
 }
 
 header {
-    background-image: url('https://github.com/codigoperfeito/site-MBS/blob/main/assets/img/bg.png');
+    background-image: url("https://github.com/codigoperfeito/site-MBS/blob/main/assets/img/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
