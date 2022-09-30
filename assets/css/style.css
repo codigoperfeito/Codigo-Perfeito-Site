@@ -194,7 +194,7 @@ hr {
 }
 
 .mid-bg {
-    background-image: url('https://github.com/codigoperfeito/site-MBS/blob/main/assets/img/mid-bg.png');
+    background: url("https://raw.githubusercontent.com/codigoperfeito/site-MBS/main/assets/img/mid-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -240,7 +240,7 @@ hr {
 }
 
 .bottom-bg {
-    background-image: url('https://github.com/codigoperfeito/site-MBS/blob/main/assets/img/bottom.png');
+    background: url("https://raw.githubusercontent.com/codigoperfeito/site-MBS/main/assets/img/bottom.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
