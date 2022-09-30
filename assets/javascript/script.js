@@ -35,13 +35,13 @@ function apertar(x) {
             pessoa1.style.left = '0';
             botao2.style.backgroundColor = '#ededed';
             pessoa2.style.opacity = 0;
-            pessoa2.style.left = '100px';
+            pessoa2.style.left = '40px';
             botao3.style.backgroundColor = '#ededed';
             pessoa3.style.opacity = 0;
-            pessoa3.style.left = '100px';
+            pessoa3.style.left = '40px';
             botao4.style.backgroundColor = '#ededed';
             pessoa4.style.opacity = 0;
-            pessoa4.style.left = '100px';
+            pessoa4.style.left = '40px';
             break;
         case 2:
             botao2.style.backgroundColor = '#fab700';
@@ -49,13 +49,13 @@ function apertar(x) {
             pessoa2.style.left = '0';
             botao1.style.backgroundColor = '#ededed';
             pessoa1.style.opacity = 0;
-            pessoa1.style.left = '-100px';
+            pessoa1.style.left = '-40px';
             botao3.style.backgroundColor = '#ededed';
             pessoa3.style.opacity = 0;
-            pessoa3.style.left = '100px';
+            pessoa3.style.left = '40px';
             botao4.style.backgroundColor = '#ededed';
             pessoa4.style.opacity = 0;
-            pessoa4.style.left = '100px';
+            pessoa4.style.left = '40px';
             break;
         case 3:
             botao3.style.backgroundColor = '#fab700';
@@ -63,13 +63,13 @@ function apertar(x) {
             pessoa3.style.left = '0';
             botao2.style.backgroundColor = '#ededed';
             pessoa2.style.opacity = 0;
-            pessoa2.style.left = '-100px';
+            pessoa2.style.left = '-40px';
             botao1.style.backgroundColor = '#ededed';
             pessoa1.style.opacity = 0;
-            pessoa1.style.left = '-100px';
+            pessoa1.style.left = '-40px';
             botao4.style.backgroundColor = '#ededed';
             pessoa4.style.opacity = 0;
-            pessoa4.style.left = '100px';
+            pessoa4.style.left = '40px';
             break;
         case 4:
             botao4.style.backgroundColor = '#fab700';
@@ -77,13 +77,13 @@ function apertar(x) {
             pessoa4.style.left = '0';
             botao2.style.backgroundColor = '#ededed';
             pessoa2.style.opacity = 0;
-            pessoa2.style.left = '-100px';
+            pessoa2.style.left = '-40px';
             botao3.style.backgroundColor = '#ededed';
             pessoa3.style.opacity = 0;
-            pessoa3.style.left = '-100px';
+            pessoa3.style.left = '-40px';
             botao1.style.backgroundColor = '#ededed';
             pessoa1.style.opacity = 0;
-            pessoa1.style.left = '-100px';
+            pessoa1.style.left = '-40px';
             break;
         case 5:
             pessoa1.style.opacity = 1;

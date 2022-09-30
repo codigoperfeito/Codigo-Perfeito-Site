@@ -131,10 +131,12 @@ hr {
 
 .highlight-top>h1 {
     color: #143f69;
+    text-align: center;
 }
 
 .highlight-top>h4 {
     color: #8b929b;
+    text-align: center;
 }
 .botao{
     display: none;
@@ -407,15 +409,54 @@ small>a:hover {
 
 @media screen and (max-width: 720px) {
     .container {
-        max-width: 500px;
+        max-width: 550px;
     }
-
+    .title-homeui {
+        margin-right: 0;
+    }
     .header-text>h3 {
         font-size: 1.3em;
     }
 
     .header-text>h1 {
-        font-size: 5em;
+        font-size: 4em;
+    }
+
+    .highlight-bottom {
+        flex-direction: column;
+    }
+
+    .icon-logo {
+        width: 100px;
+    }
+
+    .mid-bg {
+        height: 210px;
+    }
+
+    .mid-list>ul>li {
+        margin-top: 25px;
+        margin-left: 15px;
+        font-size: 0.45em;
+    }
+
+    .bottom-bg {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 550px;
+    }
+
+    .header-text>h3 {
+        font-size: 1em;
+    }
+
+    .header-text>h1 {
+        font-size: 3em;
+        margin-block-start: -30px;
     }
 
     .highlight-bottom {
@@ -529,6 +570,10 @@ small>a:hover {
     .mid-bg {
         height: 130px;
     }
+    .header-text>h1 {
+        font-size: 2em;
+        margin-block-start: -25px;
+    }
 
     .mid-list>ul>li {
         margin-top: 18px;
@@ -548,7 +593,9 @@ small>a:hover {
             width: 220px;
         }
 }
-
+    .header-text>h1{
+        margin-left: 73px;
+    }
 
 @media screen and (max-width: 375px) {
     spam{
