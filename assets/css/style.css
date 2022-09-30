@@ -24,7 +24,7 @@ html {
 }
 
 header {
-    background-image: url("assets/img/bg.png");
+    background: url("/assets/img/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
