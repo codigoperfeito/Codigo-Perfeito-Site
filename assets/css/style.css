@@ -24,7 +24,7 @@ html {
 }
 
 header {
-    background-image: url('assets/img/bg.png');
+    background-image: url('https://github.com/codigoperfeito/site-MBS/blob/main/assets/img/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -159,13 +159,12 @@ hr {
     text-align: center;
 }
 
-.people-hightlight:hover {
+.people-highlight-container:hover {
     --webkit-box-shadow: 2px 2px 15px 8px rgba(10, 10, 10, 0.2);
     box-shadow: 2px 2px 15px 8px rgba(10, 10, 10, 0.2);
-    padding: 1% 2% 2% 2%;
+    padding: 1% 0% 0% 0%;
     z-index: 1;
     transition: all 0.5s;
-    margin: 0;
 }
 
 .name {
@@ -195,7 +194,7 @@ hr {
 }
 
 .mid-bg {
-    background-image: url('/assets/img/mid-bg.png');
+    background-image: url('https://github.com/codigoperfeito/site-MBS/blob/main/assets/img/mid-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -241,7 +240,7 @@ hr {
 }
 
 .bottom-bg {
-    background-image: url('/assets/img/bottom.png');
+    background-image: url('https://github.com/codigoperfeito/site-MBS/blob/main/assets/img/bottom.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -374,7 +373,9 @@ small>a:hover {
     .header-text>h3 {
         font-size: 1.5em;
     }
-
+    .highlight-bottom {
+        flex-direction: column;
+    }
     .header-text>h1 {
         font-size: 5em;
     }
@@ -478,10 +479,10 @@ small>a:hover {
     }
 
     .people-hightlight {
-        margin: 25px 60px 30px 10px;
+        margin: 25px 0 0 0;
         position: absolute;
         width: 250px;
-        left: 4rem;
+        left: 5em;
     }
 
     .people-highlight-container {
@@ -537,5 +538,37 @@ small>a:hover {
 
     .bottom-bg {
         height: 50px;
+    }
+}
+@media screen and (max-width: 414px) {
+        spam{
+            font-size: 1em;
+        }
+        .people-highlight{
+            width: 220px;
+        }
+}
+
+
+@media screen and (max-width: 375px) {
+    spam{
+        font-size: 1em;
+    }
+    .people-hightlight {
+        margin: 15px 0px 0px 0px;
+        position: absolute;
+        width: 250px;
+        left: 4em;
+    }
+}
+@media screen and (max-width: 320px) {
+    spam{
+        font-size: 1em;
+    }
+    .people-hightlight {
+        margin: 15px 0px 0px 0px;
+        position: absolute;
+        width: 220px;
+        left: 3em;
     }
 }
