@@ -223,13 +223,12 @@ hr {
     text-decoration: none;
     color: #143f69;
     font-weight: bolder;
-    font-size: 1.4em;
+    font-size: 1.7em;
 }
 
 .mid-list>ul>li {
     margin-top: 64px;
-    margin-left: 50px;
-    width: 180px;
+    margin-left: 8em;
 }
 
 .mid-list>ul>li>a:hover {
@@ -329,10 +328,25 @@ small>a:hover {
 
 
 
+@media screen and (max-width: 3540px) {
+    .container {
+        max-width: 1440px;
+    }
 
+    .icon-logo {
+        width: 180px;
+    }
+}
 
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 1280px;
+    }
 
-
+    .icon-logo {
+        width: 180px;
+    }
+}
 
 
 
@@ -395,9 +409,9 @@ small>a:hover {
     }
 
     .mid-list>ul>li {
-        margin-top: 35px;
+        margin-top: 30px;
         margin-left: 35px;
-        font-size: 0.6em;
+        font-size: 0.5em;
     }
 
     .bottom-bg {
@@ -551,7 +565,7 @@ small>a:hover {
     }
 
     .container {
-        max-width: 414px;
+        max-width: 375px;
     }
 
     .icon-logo {
@@ -567,9 +581,6 @@ small>a:hover {
         margin-block-start: -25px;
     }
 
-    .mid-bg {
-        height: 130px;
-    }
     .header-text>h1 {
         font-size: 2em;
         margin-block-start: -25px;
@@ -584,22 +595,11 @@ small>a:hover {
     .bottom-bg {
         height: 50px;
     }
-}
-@media screen and (max-width: 414px) {
-        spam{
-            font-size: 1em;
-        }
-        .container {
-            max-width: 374px;
-        }
-        .people-highlight{
-            width: 220px;
-        }
-}
-    .header-text>h1{
-        margin-left: 73px;
+    .mid-bg {
+        background: url("https://raw.githubusercontent.com/codigoperfeito/site-MBS/main/assets/img/locais.png");
+        height: 183px;
     }
-
+}
 @media screen and (max-width: 375px) {
     spam{
         font-size: 1em;
