@@ -993,7 +993,9 @@ small>a:hover {
     spam {
         font-size: 1em;
     }
-
+    ul>li>a{
+        margin: 20px;
+    }
     .container {
         max-width: 320px;
     }
