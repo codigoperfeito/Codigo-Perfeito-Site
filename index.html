@@ -8,19 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//db.onlinewebfonts.com/c/1ba82d324736a8a9d4327d482c4627c4?family=Ebrima" rel="stylesheet" type="text/css"/>
     <script src="assets/javascript/script.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>MBS Imobiliaria</title>
 </head>
 <body>
     <div class="container-m">
-
-        <input id="toggle" type="checkbox">
-    
-        
+        <input id="toggle" type="checkbox">        
         <label class="toggle-container" for="toggle">
-         
           <span class="button button-toggle"></span>
         </label>
-    
         <!-- The Nav Menu -->
         <nav class="nav">
           <a class="nav-item" href="#">INICIO</a>
@@ -42,7 +38,7 @@
                             <a href="#" class="tc-inicio">INICIO</a>
                             <a href="#highlight-body" class="tc-contatos">CONTATOS</a>
                             <a href="#mid-bg" class="tc-clientes">LOCAIS</a>
-                            <a href="#" class="tc-sobre">SOBRE</a>
+                            <a href="#highlight-footer-top" class="tc-sobre">SOBRE</a>
                         </div>
                     </div>
                 </div>
@@ -113,7 +109,7 @@
     </div>
     <div class="hightlight-mid-container">
         <div class="container mid-bg" id="mid-bg">
-            <div class="mid-list">
+            <div class="mid-list d-none">
                 <ul>
                     <li>
                         <a href="#">Zona Norte</a>
@@ -125,6 +121,44 @@
                 </ul>
             </div>
         </div>
+        <div class="container">
+            <div class="mid-mobile">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                            location_on
+                            </span>
+                            Zona Norte
+                        </a>
+
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                location_on
+                            </span>
+                            Zona Oeste
+                        </a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                location_on
+                                </span>
+                            São Gonçalo
+                        </a>
+                        <a href="#"><span class="material-symbols-outlined">
+                            location_on
+                            </span>
+                            Barra / JPA
+                        </a>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                location_on
+                                </span>
+                                Rio das Ostras
+                        </a>
+                    </li>
+                </ul>
+            </div>        
+        </div>
     </div>
     <div class="highlight-bottom-container">
         <div class="container bottom-bg"></div>
@@ -132,9 +166,6 @@
     <footer>
         <div class="highlight-footer">
             <div class="container flex f-column">
-                <div class="highlight-footer-top" id="highlight-footer-top">
-                    
-                </div>
                 <div class="highlight-footer-bottom flex">
                     <div class="copyright">
                     </div>
