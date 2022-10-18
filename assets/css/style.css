@@ -6,6 +6,7 @@
     src: url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.woff") format("woff"), url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.svg#Ebrima") format("svg");
 }
 
+
 * {
     margin: 0;
     font-family: Ebrima;
@@ -320,6 +321,31 @@ small>a:hover {
     box-shadow: 1px 1px 2px #888;
     z-index:1000;
 }
+
+/* ************* galeria ************* */
+
+.mid-img>.container>.galeria-mid>img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.mid-img>.container{
+    display: block;
+}
+.galeria-mid{
+    column-count: 4;
+    column-gap: 10px;
+}
+.mid-galeria-text> h1,
+.mid-galeria-text> h4{
+    font-weight: 700;
+    padding: 10px;
+    font-family: Montserrat, sans-serif !important;
+}
+.galeria-mid>img:hover{
+    cursor: pointer;
+}
+
 
 
 
@@ -987,6 +1013,13 @@ small>a:hover {
     .mid-list2 {
         display: flex;
     }
+
+    /* galeria -------------------- */
+    .galeria-mid{
+        column-count: 2;
+        column-gap: 10px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -1047,5 +1080,11 @@ small>a:hover {
     }
     .mid-bg{
         height: 160px;
+    }
+
+    /* galeria -------------------- */
+    .galeria-mid{
+        column-count: 1;
+        column-gap: 10px;
     }
 }
