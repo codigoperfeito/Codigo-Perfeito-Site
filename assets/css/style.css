@@ -994,7 +994,7 @@ small>a:hover {
         font-size: 1em;
     }
     ul>li>a{
-        margin: 20px;
+        margin: 15px;
     }
     .container {
         max-width: 320px;
@@ -1006,6 +1006,17 @@ small>a:hover {
         width: 250px;
         left: 4em;
     }
+    .mid-bg{
+        height: 140px;
+    }
+    #p1, #p2, #p3{
+        position: inherit;
+        left: 0;
+    }
+    .people-highlight-container {
+        height: 480px;
+    }
+    
 }
 
 @media screen and (max-width: 320px) {
@@ -1013,7 +1024,7 @@ small>a:hover {
         font-size: 1em;
     }
     ul>li>a{
-        margin: 20px;
+        margin: 5px;
     }
     .header-box {
         transform: none;
