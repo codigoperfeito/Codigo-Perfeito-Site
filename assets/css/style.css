@@ -259,7 +259,7 @@ hr {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 200px;
+    height: 28vh;
     display: flex;
     flex-direction: column;
 }
@@ -523,6 +523,9 @@ form{
     .icon-logo {
         width: 180px;
     }
+    .bottom-bg{
+        height: 22vh;
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -545,7 +548,7 @@ form{
     }
 
     .bottom-bg {
-        height: 150px;
+        height: 16vh;
     }
 
     .icon-logo {
@@ -591,7 +594,7 @@ form{
     }
 
     .bottom-bg {
-        height: 100px;
+        height: 13vh;
     }
 
 
@@ -1085,12 +1088,15 @@ form{
     }
 
     .bottom-bg {
-        height: 50px;
+        height: 7vh;
     }
 
     .mid-mobile>ul {
         margin: 0;
         padding: 0;
+    }
+    .mid-mobile>ul>li{
+        list-style: none;
     }
 
     .mid-mobile {
@@ -1165,6 +1171,9 @@ form{
 @media screen and (max-width: 320px) {
     spam {
         font-size: 1em;
+    }
+    .bottom-bg{
+        height:57px;
     }
 
     ul>li>a {
