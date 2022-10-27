@@ -1125,6 +1125,9 @@ form{
         flex-direction: column;
         height: auto;
     }
+    .highlight-bottom{
+        height: 500px;
+    }
 
 }
 
@@ -1132,7 +1135,7 @@ form{
     spam {
         font-size: 1em;
     }
-
+    
     .container {
         max-width: 320px;
     }
