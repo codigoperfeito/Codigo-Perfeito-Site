@@ -252,18 +252,14 @@ hr {
 .hightlight-mid-container {
     margin: 50px 0 50px 0;
 }
-
-.bottom-bg {
-    background: url("https://raw.githubusercontent.com/codigoperfeito/site-MBS/main/assets/img/bottom.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 28vh;
+.highlight-bottom-container>.container{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-
+.highlight-bottom-container>.container>img{
+    widht: 100%;
+}
 .copyright {
     color: #FFF;
 }
@@ -523,9 +519,6 @@ form{
     .icon-logo {
         width: 180px;
     }
-    .bottom-bg{
-        height: 22vh;
-    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -545,10 +538,6 @@ form{
         margin-top: 43px;
         margin-left: 55px;
         font-size: 0.65em;
-    }
-
-    .bottom-bg {
-        height: 16vh;
     }
 
     .icon-logo {
@@ -593,10 +582,6 @@ form{
         font-size: 0.5em;
     }
 
-    .bottom-bg {
-        height: 13vh;
-    }
-
 
 }
 
@@ -635,9 +620,6 @@ form{
         font-size: 0.45em;
     }
 
-    .bottom-bg {
-        height: 80px;
-    }
 }
 
 @media screen and (max-width: 600px) {
@@ -670,10 +652,6 @@ form{
         margin-top: 25px;
         margin-left: 15px;
         font-size: 0.45em;
-    }
-
-    .bottom-bg {
-        height: 80px;
     }
 }
 
@@ -1087,10 +1065,6 @@ form{
         margin-block-start: -25px;
     }
 
-    .bottom-bg {
-        height: 7vh;
-    }
-
     .mid-mobile>ul {
         margin: 0;
         padding: 0;
@@ -1172,10 +1146,6 @@ form{
     spam {
         font-size: 1em;
     }
-    .bottom-bg{
-        height:57px;
-    }
-
     ul>li>a {
         margin: 5px;
     }
