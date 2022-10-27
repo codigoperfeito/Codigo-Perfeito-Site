@@ -297,6 +297,15 @@ hr {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.text-footer{
+    color: #AAA;
+    align-items: center;
+    display: flex;
+    column-count: 2;
+}
+.text-footer>span{
+    padding-right: 5px;
+}
 
 small>a {
     color: rgba(0, 0, 0, 0.678);
@@ -307,137 +316,146 @@ small>a:hover {
     color: #000;
 }
 
-#whatsapp{
-    position:fixed;
-    width:60px;
-    height:60px;
-    bottom:30px;
-    right:25px;
-    background-color:#25d366;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-    font-size:30px;
+#whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 25px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
     box-shadow: 1px 1px 2px #888;
-    z-index:1000;
+    z-index: 1000;
 }
 
 /* ************* galeria ************* */
 
-.mid-img>.container{
+.mid-img>.container {
     display: block;
 }
-.trans
-{
-	transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-ms-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	-webkit-transition: all 1s ease;
+
+.trans {
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
 }
-.top
-{
-	display: block;
+
+.top {
+    display: block;
+    margin-bottom: 20px;
 }
-.top ul
-{
+
+.top ul {
     padding: 0;
     list-style-type: none;
     column-count: 4;
-	list-style: none;
-	width: 100%;
-	z-index: 1;
-	box-sizing: border-box;
-}
-.top ul li
-{
     list-style: none;
-	position: relative;
+    width: 100%;
+    z-index: 1;
+    box-sizing: border-box;
 }
 
-.top ul li::before
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: #000;
-	content: '';
-	color: white;
-	opacity: 0.4;
-	text-align: center;
-	box-sizing: border-box;
-	pointer-events: none;
-	transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	-webkit-transition: all 0.5s ease;
-}
-.top ul li:hover::before
-{
-	opacity: 0;
-	background-color: rgba(0,0,0,0.90);
-}
-.top ul li img
-{
-	width: 100%;
-	overflow: hidden;
-}
-.lightbox
-{
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	top: 0;
-	left: 0;
-	background-color: rgba(0,0,0,0.75);
-	z-index: 999;
-	opacity: 0;
-	pointer-events: none;
-}
-.lightbox img
-{
-	max-width: 90%;
-	max-height: 80%;
-	position: relative;
-	top: -100%;
-	/* Transition */
-	transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-ms-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	-webkit-transition: all 1s ease;
-}
-.lightbox:target
-{
-	outline: none;
-	top: 0;
-	opacity: 1;
-	pointer-events: auto;
-	transition: all 1.2s ease;
-	-moz-transition: all 1.2s ease;
-	-ms-transition: all 1.2s ease;
-	-o-transition: all 1.2s ease;
-	-webkit-transition: all 1.2s ease;
-}
-.lightbox:target img
-{
-	top: 0;
-	top: 50%;
-	transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
+.top ul li {
+    list-style: none;
+    position: relative;
 }
 
-/* ************* galeria ************* */
+.top ul li::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    content: '';
+    color: white;
+    opacity: 0.4;
+    text-align: center;
+    box-sizing: border-box;
+    pointer-events: none;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
 
+.top ul li:hover::before {
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.90);
+}
 
+.top ul li img {
+    width: 100%;
+    overflow: hidden;
+}
 
+.lightbox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    position: relative;
+    top: -100%;
+    /* Transition */
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+
+.lightbox:target {
+    outline: none;
+    top: 0;
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 1.2s ease;
+    -moz-transition: all 1.2s ease;
+    -ms-transition: all 1.2s ease;
+    -o-transition: all 1.2s ease;
+    -webkit-transition: all 1.2s ease;
+}
+
+.lightbox:target img {
+    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+/* ************* Formulário ************* */
+
+.form-container{
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    
+}
+form{
+    flex-direction: column;
+}
+
+/* ************* Formulário ************* */
 
 
 
@@ -659,7 +677,7 @@ small>a:hover {
 }
 
 @media screen and (max-width: 425px) {
-    #whatsapp{
+    #whatsapp {
         bottom: 100px;
     }
 
@@ -1076,7 +1094,8 @@ small>a:hover {
         margin: 0;
         padding: 0;
     }
-    .mid-mobile{
+
+    .mid-mobile {
         display: block;
     }
 
@@ -1097,9 +1116,14 @@ small>a:hover {
     }
 
     /* galeria -------------------- */
-    .galeria-mid{
+    .top ul {
+        padding: 0;
+        list-style-type: none;
         column-count: 2;
-        column-gap: 10px;
+    }
+    .highlight-footer-bottom{
+        flex-direction: column;
+        height: auto;
     }
 
 }
@@ -1108,6 +1132,7 @@ small>a:hover {
     spam {
         font-size: 1em;
     }
+
     .container {
         max-width: 320px;
     }
@@ -1118,26 +1143,33 @@ small>a:hover {
         width: 250px;
         left: 4em;
     }
-    .mid-bg{
+
+    .mid-bg {
         height: 140px;
     }
-    #p1, #p2, #p3{
+
+    #p1,
+    #p2,
+    #p3 {
         position: inherit;
         left: 0;
     }
+
     .people-highlight-container {
         height: 480px;
     }
-    
+
 }
 
 @media screen and (max-width: 320px) {
     spam {
         font-size: 1em;
     }
-    ul>li>a{
+
+    ul>li>a {
         margin: 5px;
     }
+
     .header-box {
         transform: none;
     }
@@ -1157,13 +1189,16 @@ small>a:hover {
         width: 220px;
         left: 3em;
     }
-    .mid-bg{
+
+    .mid-bg {
         height: 160px;
     }
 
     /* galeria -------------------- */
-    .galeria-mid{
+    .top ul {
+        padding: 0;
+        list-style-type: none;
         column-count: 1;
-        column-gap: 10px;
     }
+
 }
