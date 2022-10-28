@@ -236,7 +236,7 @@ hr {
     text-decoration: none;
     color: #143f69;
     font-weight: bolder;
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 .mid-list>ul>li {
@@ -536,7 +536,7 @@ form{
 
     .mid-list>ul>li {
         margin-top: 43px;
-        margin-left: 55px;
+        margin-left: 6em;
         font-size: 0.65em;
     }
 
