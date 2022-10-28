@@ -5,6 +5,7 @@
     src: url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.eot");
     src: url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.woff") format("woff"), url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1ba82d324736a8a9d4327d482c4627c4.svg#Ebrima") format("svg");
 }
+
 * {
     margin: 0;
     font-family: Ebrima;
@@ -241,7 +242,7 @@ hr {
 
 .mid-list>ul>li {
     margin-top: 64px;
-    margin-left: 8em;
+    margin-left: 6em;
 }
 
 .mid-list>ul>li>a:hover {
@@ -252,14 +253,17 @@ hr {
 .hightlight-mid-container {
     margin: 50px 0 50px 0;
 }
-.highlight-bottom-container>.container{
+
+.highlight-bottom-container>.container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.highlight-bottom-container>.container>img{
+
+.highlight-bottom-container>.container>img {
     width: 100%;
 }
+
 .copyright {
     color: #FFF;
 }
@@ -291,13 +295,15 @@ hr {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.text-footer{
+
+.text-footer {
     color: #AAA;
     align-items: center;
     display: flex;
     column-count: 2;
 }
-.text-footer>span{
+
+.text-footer>span {
     padding-right: 5px;
 }
 
@@ -439,13 +445,14 @@ small>a:hover {
 
 /* ************* Formulário ************* */
 
-.form-container{
+.form-container {
     display: flex;
     align-items: center;
     background-color: #f2f2f2;
-    
+
 }
-form{
+
+form {
     flex-direction: column;
 }
 
@@ -496,6 +503,11 @@ form{
     .icon-logo {
         width: 180px;
     }
+
+    .mid-list>ul>li {
+        margin-top: 64px;
+        margin-left: 8em;
+    }
 }
 
 @media screen and (max-width: 1440px) {
@@ -506,19 +518,7 @@ form{
     .icon-logo {
         width: 180px;
     }
-}
 
-
-
-
-@media screen and (max-width: 1440px) {
-    .container {
-        max-width: 1280px;
-    }
-
-    .icon-logo {
-        width: 180px;
-    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -536,8 +536,8 @@ form{
 
     .mid-list>ul>li {
         margin-top: 43px;
-        margin-left: 6em;
-        font-size: 0.65em;
+        margin-left: 5em;
+        font-size: 0.74em;
     }
 
     .icon-logo {
@@ -577,9 +577,9 @@ form{
     }
 
     .mid-list>ul>li {
-        margin-top: 30px;
+        margin-top: 37px;
         margin-left: 35px;
-        font-size: 0.5em;
+        font-size: 0.59em;
     }
 
 
@@ -1069,8 +1069,16 @@ form{
         margin: 0;
         padding: 0;
     }
-    .mid-mobile>ul>li{
+
+    .mid-mobile>ul>li {
         list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .mid-mobile>ul>li>a {
+        display: flex;
+        padding: 5px;
     }
 
     .mid-mobile {
@@ -1099,11 +1107,13 @@ form{
         list-style-type: none;
         column-count: 2;
     }
-    .highlight-footer-bottom{
+
+    .highlight-footer-bottom {
         flex-direction: column;
         height: auto;
     }
-    .highlight-bottom{
+
+    .highlight-bottom {
         height: 500px;
     }
 
@@ -1113,7 +1123,7 @@ form{
     spam {
         font-size: 1em;
     }
-    
+
     .container {
         max-width: 320px;
     }
@@ -1146,6 +1156,7 @@ form{
     spam {
         font-size: 1em;
     }
+
     ul>li>a {
         margin: 5px;
     }
