@@ -353,7 +353,7 @@ small>a:hover {
 .top ul {
     padding: 0;
     list-style-type: none;
-    column-count: 4;
+    column-count: 5;
     list-style: none;
     width: 100%;
     z-index: 1;
