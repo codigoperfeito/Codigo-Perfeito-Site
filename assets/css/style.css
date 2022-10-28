@@ -527,7 +527,7 @@ form {
     }
 
     .icon-logo {
-        width: 180px;
+        width: 150px;
     }
 
     .mid-bg {
@@ -569,7 +569,7 @@ form {
     }
 
     .icon-logo {
-        width: 180px;
+        width: 120px;
     }
 
     .mid-bg {
@@ -585,13 +585,19 @@ form {
 
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 760px) {
     .container {
         max-width: 600px;
     }
 
     .title-homeui {
         margin-right: 0;
+    }
+    .title-homeui>a{
+        font-size: 0.85em;
+    }
+    .top ul{
+        column-count: 2;
     }
 
     .header-text>h3 {
@@ -1105,7 +1111,6 @@ form {
     .top ul {
         padding: 0;
         list-style-type: none;
-        column-count: 2;
     }
 
     .highlight-footer-bottom {
