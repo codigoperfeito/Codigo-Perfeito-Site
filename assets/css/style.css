@@ -503,7 +503,13 @@ form {
     .icon-logo {
         width: 180px;
     }
-
+    .mid-list>ul>li>a {
+        display: flex;
+        text-decoration: none;
+        color: #143f69;
+        font-weight: bolder;
+        font-size: 1.6em;
+    }
     .mid-list>ul>li {
         margin-top: 64px;
         margin-left: 8em;
