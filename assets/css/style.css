@@ -1091,6 +1091,7 @@ form {
     .mid-mobile>ul>li>a {
         display: flex;
         padding: 5px;
+        color: #143f69;
     }
 
     .mid-mobile {
